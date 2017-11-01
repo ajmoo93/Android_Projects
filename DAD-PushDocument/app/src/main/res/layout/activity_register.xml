@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nestedScrollviewReg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    //Height = wrap width = match
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linnearLayoutCompatReg"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        //---- Username
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/InputLayoutName"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/InputEditName"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/hint_userName"
+                android:gravity="center">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+        //---- Email
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/InputLayoutEmail"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/InputEditEmail"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/hint_email"
+                android:gravity="center">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+        //---- Password
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/InputLayoutPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/InputEditPassword"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:gravity="center"
+                >
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+        //---- ConfirmPassword
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/InputLayoutConPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditConPassword"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/hint_confirm_password"
+                android:inputType="textPassword"
+                android:gravity="center">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatRegisterBtn"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/text_register">
+        </android.support.v7.widget.AppCompatButton>
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/appCompatTextLogin"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+            android:text="@string/text_login_register"
+            android:textColor="@color/color_login"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            >
+
+        </android.support.v7.widget.AppCompatTextView>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.NestedScrollView>

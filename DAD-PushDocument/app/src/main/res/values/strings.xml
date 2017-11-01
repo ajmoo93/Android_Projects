@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">DAD-PushDocument</string>
+    <string name="success_login">Login was a success</string>
+    <string name="success_register">Registration was a success</string>
+    <string name="success_deleted">Deletion success</string>
+    <string name="success_updated">Update user success</string>
+    <string name="success_loggedout">Log out</string>
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email_password">Email or password</string>
+    <string name="hint_edit_user">Need to fill something in to edit</string>
+    <string name="hint_userName">UserName</string>
+    <string name="hint_confirm_password">Confirm password</string>
+
+
+
+    <string name="error_email_password">Email and/or password not matching</string>
+    <string name="error_email">Email is not valid</string>
+    <string name="error_email_inUse">Email already in use</string>
+    <string name="error_password">Password does not meet the requirement</string>
+    <string name="error_edit_user">Edit user error</string>
+    <string name="error_login">Login failed</string>
+    <string name="error_register">Registration failed</string>
+    <string name="error_userName">UserName</string>
+    <string name="error_password_eight">Password need to be 8 or more</string>
+
+    <string name="text_account_register">Do not have an account? Register here</string>
+    <string name="text_login_register">Already got an account? Log in here</string>
+    <string name="text_login">Log in</string>
+    <string name="text_user_update">Update User</string>
+    <string name="text_register">Register</string>
+    <string name="text_error">Error</string>
+    <string name="text_backToProfile">Go back to profile</string>
+    <string name="information">Information</string>
+    <string name="adding">Adding</string>
+    <string name="contact">Contact</string>
+    <string name="account_delete">Account Deleted</string>
+
+
+    <string name="settings">Settings</string>
+    <string name="Delete_User">Delete</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<scale
+    android:fromXScale="10"
+    android:fromYScale="10"
+
+    >
+</scale>
+    <alpha android:toAlpha="10">
+
+    </alpha>
+    <translate android:toXDelta="10"></translate>
+    <set android:shareInterpolator="true"
+        android:duration="200"
+        ></set>
+</set>
+  <!--  appCompatTextBtn.animate()
+    .alpha(1f)
+    .scaleX(1f)
+    .scaleY(1f)
+    .translationZ(10f)
+    .setInterpolator(new FastOutSlowInInterpolator())
+    .setStartDelay(200)
+    .setListener(new Animator.AnimatorListener() {
+    @Override
+    public void onAnimationStart(Animator animation) { }
+
+    @Override
+    public void onAnimationEnd(Animator animation) { }
+
+    @Override
+    public void onAnimationCancel(Animator animation) { }
+
+    @Override
+    public void onAnimationRepeat(Animator animation) { }
+    })
+    .start();
+    }-->
