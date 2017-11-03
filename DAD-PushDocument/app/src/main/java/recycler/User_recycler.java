@@ -1,4 +1,4 @@
-package com.example.em9310li.dad_pushdocument;
+package recycler;
 
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.RecyclerView;
@@ -6,6 +6,9 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.em9310li.dad_pushdocument.R;
+import classes.User;
 
 /**
  * Created by EM9310LI on 2017-09-28.

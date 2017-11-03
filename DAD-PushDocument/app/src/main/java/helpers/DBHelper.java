@@ -1,18 +1,16 @@
-package com.example.em9310li.dad_pushdocument;
+package helpers;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.util.Log;
 
-import com.example.em9310li.dad_pushdocument.Post;
-import com.example.em9310li.dad_pushdocument.Threads;
-import com.example.em9310li.dad_pushdocument.User;
+import classes.Post;
+import classes.Threads;
+import classes.User;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 /**

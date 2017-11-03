@@ -15,6 +15,10 @@ import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.view.View;
 
+import classes.User;
+import helpers.DBHelper;
+import valitation.Invalidation;
+
 /**
  * Created by EM9310LI on 2017-10-27.
  */

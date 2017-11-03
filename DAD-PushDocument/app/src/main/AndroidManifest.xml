@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".User_registration"></activity>
         <activity android:name=".User_edit"></activity>
-        <activity android:name=".User_activities"></activity>
+        <activity android:name="activities.User_activities"></activity>
+        <activity android:name="activities.Thread_activities"></activity>
+        <activity android:name="Thread_Make"></activity>
     </application>
 
 </manifest>

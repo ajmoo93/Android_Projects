@@ -1,4 +1,4 @@
-package com.example.em9310li.dad_pushdocument;
+package activities;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -20,12 +20,19 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.example.em9310li.dad_pushdocument.R;
+import com.example.em9310li.dad_pushdocument.SessionManager;
+import classes.User;
+import com.example.em9310li.dad_pushdocument.User_edit;
+
+import helpers.DBHelper;
+
 /**
  * Created by EM9310LI on 2017-09-27.
  */
 
 public class User_activities extends AppCompatActivity implements View.OnClickListener {
-    private final User_activities activity = User_activities.this;
+    private final AppCompatActivity activity = User_activities.this;
 
     private AppCompatTextView appCompatEmailView, appCompatNameView;
     private TextView textViewNewThread, textViewContact, textViewInfo;
@@ -77,10 +84,11 @@ public class User_activities extends AppCompatActivity implements View.OnClickLi
         users = new User();
 
         dbHelper = new DBHelper(activity);
-
         String emailFromIntent = getIntent().getStringExtra("EMAIL");
         appCompatEmailView.setText(emailFromIntent);
-        appCompatNameView.setText(users.getUserName());
+        String UsetName = getIntent().getStringExtra(users.getUserName());
+        appCompatNameView.setText(UsetName);
+        users.setUserName(appCompatNameView.getText().toString());
 
 
         getDataFromSQLite();

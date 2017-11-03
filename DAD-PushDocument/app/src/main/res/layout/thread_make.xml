@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nestedScrollViewEdit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/titleEditLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/titleInputView"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Title"
+            android:inputType="textPassword"
+            android:gravity="center"
+            >
+        </android.support.design.widget.TextInputEditText>
+    </android.support.design.widget.TextInputLayout>
+<android.support.design.widget.TextInputLayout
+    android:id="@+id/textEditLayout"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/inputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.18"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        />
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonAddThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Button" />
+</LinearLayout>
